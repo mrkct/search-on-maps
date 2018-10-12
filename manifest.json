@@ -4,10 +4,11 @@
   "name": "Search on Google Maps",
   "version": "1.0",
 
-  "description": "Adds an option to search on Google Maps when you select some text and right click it",
+  "description": "Adds an option to search on Google Maps when you select some text and right click it. Icon credit: Andrew Onorato, thenounproject.com",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/mapmarker-48.png",
+    "96": "icons/mapmarker-96.png"
   },
 
   "permissions": ["contextMenus"],
@@ -15,5 +16,6 @@
   "background": {
     "scripts": ["background.js"]
   },
+  
   "default_locale": "en"
 }
