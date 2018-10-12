@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Search on Google Maps",
+  "version": "1.0",
+
+  "description": "Adds an option to search on Google Maps when you select some text and right click it",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "permissions": ["contextMenus"],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "default_locale": "en"
+}
